@@ -20,6 +20,9 @@ resulting with the weather condition in that country/city.
 </ul>
 <ol>
   <li>Simply clone or download the project to your mac</li>
+ <li>Open folder</li>
+   <li>Double click on WeatherApp.xcworkspace file</li>
+
   <li>Build and run.</li>
 </ol> 
 
@@ -27,3 +30,4 @@ resulting with the weather condition in that country/city.
 <ul>
 <li>Sanad Barjawi</li>
 </ul>
+
