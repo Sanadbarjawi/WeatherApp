@@ -16,7 +16,6 @@
 		16C2475720DD070C00C520CF /* DesignableButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2475620DD070C00C520CF /* DesignableButtons.swift */; };
 		16C2475A20DD093300C520CF /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2475820DD093300C520CF /* ConfigurationViewController.swift */; };
 		16C2475B20DD093300C520CF /* ConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16C2475920DD093300C520CF /* ConfigurationViewController.xib */; };
-		16C2475D20DD111F00C520CF /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2475C20DD111F00C520CF /* extensions.swift */; };
 		16C2475F20DD310E00C520CF /* CountriesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2475E20DD310E00C520CF /* CountriesDataModel.swift */; };
 		16C2476120DD311A00C520CF /* CitiesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C2476020DD311A00C520CF /* CitiesDataModel.swift */; };
 		B04A6BC3CE843415DBE8DF91 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B7095E00C056025D5C0A3A /* Pods_WeatherApp.framework */; };
@@ -34,7 +33,6 @@
 		16C2475620DD070C00C520CF /* DesignableButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButtons.swift; sourceTree = "<group>"; };
 		16C2475820DD093300C520CF /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
 		16C2475920DD093300C520CF /* ConfigurationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigurationViewController.xib; sourceTree = "<group>"; };
-		16C2475C20DD111F00C520CF /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		16C2475E20DD310E00C520CF /* CountriesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDataModel.swift; sourceTree = "<group>"; };
 		16C2476020DD311A00C520CF /* CitiesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesDataModel.swift; sourceTree = "<group>"; };
 		86B7095E00C056025D5C0A3A /* Pods_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				16C2475620DD070C00C520CF /* DesignableButtons.swift */,
-				16C2475C20DD111F00C520CF /* extensions.swift */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -279,7 +276,6 @@
 				16C2476120DD311A00C520CF /* CitiesDataModel.swift in Sources */,
 				16C2475A20DD093300C520CF /* ConfigurationViewController.swift in Sources */,
 				16C2475720DD070C00C520CF /* DesignableButtons.swift in Sources */,
-				16C2475D20DD111F00C520CF /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
