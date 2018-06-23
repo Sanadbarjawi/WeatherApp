@@ -129,6 +129,7 @@ class ConfigurationViewController: UIViewController {
         nextBtn.isEnabled = false
         nextBtn.alpha = 0.5
         backBtn.isHidden = false
+        chooseCityLbl.text = "Please choose your city"
     }
     
 //MARK: - Set Initial UI Method
@@ -137,6 +138,7 @@ class ConfigurationViewController: UIViewController {
         isCountryPicked = false
         nextBtn.isEnabled = true
         nextBtn.alpha = 1
+        chooseCityLbl.text = "Please choose your country"
     }
 }
 //MARK: - ConfigurationViewController Extension for UIPickerView

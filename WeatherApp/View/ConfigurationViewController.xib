@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -44,7 +43,7 @@
                     </connections>
                 </pickerView>
                 <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ihe-YN-xSJ">
-                    <rect key="frame" x="169" y="315.5" width="37" height="37"/>
+                    <rect key="frame" x="169" y="237.5" width="37" height="37"/>
                     <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </activityIndicatorView>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fte-cw-a5M">
@@ -101,8 +100,8 @@
                 <constraint firstItem="Jd1-mk-vQa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="1sZ-Jb-MMq"/>
                 <constraint firstItem="fte-cw-a5M" firstAttribute="top" secondItem="MzW-Jb-U1q" secondAttribute="bottom" constant="10" id="2uO-JI-awG"/>
                 <constraint firstItem="88V-7y-IWm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="7DT-7Z-xX4"/>
-                <constraint firstItem="ihe-YN-xSJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="93Y-hT-cri"/>
                 <constraint firstItem="MzW-Jb-U1q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BLg-5I-aKZ"/>
+                <constraint firstItem="ihe-YN-xSJ" firstAttribute="centerY" secondItem="MzW-Jb-U1q" secondAttribute="centerY" id="DNE-WT-rZH"/>
                 <constraint firstItem="SzN-gc-DGg" firstAttribute="width" secondItem="MzW-Jb-U1q" secondAttribute="width" multiplier="0.5" id="Eud-fE-m8U"/>
                 <constraint firstItem="Jd1-mk-vQa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="PDo-4K-RaD"/>
                 <constraint firstItem="MzW-Jb-U1q" firstAttribute="top" secondItem="88V-7y-IWm" secondAttribute="bottom" id="Swj-9u-DAu"/>
