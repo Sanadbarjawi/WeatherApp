@@ -17,7 +17,8 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var weatherConditionImgView: UIImageView!
     @IBOutlet weak var cityLbl: UILabel!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-  
+    @IBOutlet weak var conditionLbl: UILabel!
+    
 //MARK: - Custom Variables
     
     let weatherDataModel = WeatherDataModel()
@@ -68,6 +69,8 @@ class WeatherViewController: UIViewController {
         
         weatherDataModel.temperature = Int(tempResult)
         
+        weatherDataModel.conditionStatement = json["weather"][0]["description"].stringValue
+        
         weatherDataModel.city = json["name"].stringValue
         
         weatherDataModel.condition = json["weather"][0]["id"].intValue
@@ -79,7 +82,7 @@ class WeatherViewController: UIViewController {
     
 //MARK: - Updating UI Method
     func updateUIWithWeatherData() {
-        
+        conditionLbl.text = weatherDataModel.conditionStatement
         cityLbl.text = weatherDataModel.city
         tempLbl.text = "\(weatherDataModel.temperature)°"
         weatherConditionImgView.image = UIImage(named: weatherDataModel.weatherIconName)

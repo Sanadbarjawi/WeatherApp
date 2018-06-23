@@ -156,9 +156,13 @@ extension ConfigurationViewController:UIPickerViewDelegate,UIPickerViewDataSourc
             pickerLabel?.textAlignment = .center
         }
         if isCountryPicked{
-            pickerLabel?.text = citiesArray[row].name
+            if citiesArray.count != 0 {
+                if let cityName = citiesArray[row].name{pickerLabel?.text = cityName}
+            }
         }else{
-            pickerLabel?.text = countriesArray[row].name
+            if countriesArray.count != 0 {
+                if let counrtyName = countriesArray[row].name{pickerLabel?.text = counrtyName}
+            }
         }
         pickerLabel?.textColor = UIColor.white
         
@@ -177,9 +181,7 @@ extension ConfigurationViewController:UIPickerViewDelegate,UIPickerViewDataSourc
         if isCountryPicked{
             nextBtn.isEnabled = true
             nextBtn.alpha = 1
-            if let geoID = citiesArray[row].geonameId{
-                GeoID = geoID
-            }
+            if citiesArray.count != 0{if let geoID = citiesArray[row].geonameId{GeoID = geoID}}
         }else{
             
         }
