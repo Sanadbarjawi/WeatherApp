@@ -15,6 +15,9 @@ resulting with the weather condition in that country/city.
 </ul>  
 
 <h2>Installing</h2>
+<ul>
+<li>Prerequisites: iOS Minimum Deployment Target iOS 11.0</li>
+</ul>
 <ol>
   <li>Simply clone or download the project to your mac</li>
   <li>Build and run.</li>
