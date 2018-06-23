@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // Initiating the app from a custom XIB file
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let main = ConfigurationViewController(nibName: "ConfigurationViewController", bundle: nil)
         let nav = UINavigationController()
@@ -22,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         nav.viewControllers = [main]
         nav.isNavigationBarHidden = true
         window?.makeKeyAndVisible()
+        // Initiating the app from a custom XIB file
+
         return true
     }
 
