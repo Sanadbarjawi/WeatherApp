@@ -70,7 +70,7 @@
                                 <constraint firstAttribute="height" constant="140" id="qu0-2h-Kcb"/>
                             </constraints>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ssdfasdf" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gui-cm-oRf" userLabel="City Label">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gui-cm-oRf" userLabel="City Label">
                             <rect key="frame" x="16" y="90" width="343" height="40"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="22h-DU-vyi"/>
